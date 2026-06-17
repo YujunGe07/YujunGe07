@@ -102,18 +102,11 @@ AI-powered essay planning tool that analyzes uploaded **resumes + essay prompts*
 
 ---
 
-## GitHub Stats
+## Most Used Languages
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YujunGe07&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YujunGe07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=YujunGe07&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YujunGe07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
 
