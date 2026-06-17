@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yujun%20Ge&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=ML%20%2F%20AI%20Engineer%20%7C%20NLP%20%7C%20Assistive%20Tech&descAlignY=55&descSize=16" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yujun%20Ge&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=ML%20%2F%20AI%20Engineer%20%7C%20NLP%20%7C%20Computer%20Vision&descAlignY=55&descSize=16" />
 
 <!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&width=600&lines=Building+AI+that+helps+people+communicate;NLP+%7C+LLMs+%7C+Model+Compression;From+research+notebooks+to+real+applications)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&width=600&lines=Computer+Vision+%7C+NLP+%7C+ML+Systems;Video+transformers+for+real-world+coaching;AI+for+healthcare%2C+accessibility+%26+beyond;CS+%40+Stanford+%F0%9F%8C%B2)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,12 +12,14 @@
 
 ## About Me
 
-I'm a **Machine Learning / AI Engineer** passionate about building systems at the intersection of NLP, model efficiency, and real-world impact — particularly in assistive technology and language understanding.
+I'm a **Machine Learning / AI Engineer** and **CS student at Stanford** passionate about building systems at the intersection of computer vision, NLP, and real-world impact — from sports analytics to healthcare.
 
-- 🔬 Currently researching **embedding compression transfer** — studying whether PCA subspaces learned on one data distribution generalize across tasks, domains, and models
-- 🧠 Building **AI-powered AAC** (Augmentative & Alternative Communication) systems using Whisper, DistilGPT2, and context-aware prediction
-- 🛠️ Interested in: **model efficiency, NLP pipelines, LLM applications, and ML systems**
-- 📍 <!-- Add your location here -->
+- 🎓 Studying **Computer Science @ Stanford University**
+- 🎾 Building **AI tennis coaching** tools using ViViT video transformers + KNN similarity search to match player strokes against professional examples
+- 🫀 Researching **ECG signal processing** for cardiac rehabilitation — bandpass filtering, R-peak detection, and HRV feature extraction from wearable sensors
+- 🧠 Built an **AI-powered AAC system** (Whisper + DistilGPT2) for users with speech/motor impairments
+- 🛠️ Interested in: **computer vision, video transformers, NLP, and ML for healthcare**
+- 📍 Los Angeles, CA
 - 📬 Reach me at: **[geyujunamy@gmail.com](mailto:geyujunamy@gmail.com)**
 
 ---
@@ -40,8 +42,9 @@ I'm a **Machine Learning / AI Engineer** passionate about building systems at th
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-**NLP**
+**Computer Vision & NLP**
 
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge&logoColor=white)
 ![OpenAI Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -62,36 +65,36 @@ I'm a **Machine Learning / AI Engineer** passionate about building systems at th
 <tr>
 <td width="50%" valign="top">
 
-### 🔬 [BERT Embedding Compression](https://github.com/YujunGe07/bert-embedding-compression)
-Research into **cross-distribution transfer of PCA compression** for BERT embeddings. Key finding: 128-dim PCA matches 768-dim BERT baseline (83.4% vs 83.0%) on AG News — with 83% dimensionality reduction.
+### 🧠 [AI/ML AAC System](https://github.com/YujunGe07/V1_AI_ML_AAC)
+**Augmentative & Alternative Communication** system for users with speech/motor impairments. Real-time speech recognition (Whisper) + context-aware text prediction (DistilGPT2) + TTS output.
 
-`BERT` `PCA` `Scikit-learn` `NLP Research` `Jupyter`
+`Whisper` `DistilGPT2` `DistilBERT` `Flask` `Python`
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 [AI/ML AAC System](https://github.com/YujunGe07/V1_AI_ML_AAC)
-**Augmentative & Alternative Communication** system for users with speech/motor impairments. Real-time speech recognition (Whisper) + context-aware text prediction (DistilGPT2) + TTS output.
+### 🎾 [AI-Driven Tennis Coaching](https://github.com/YujunGe07/AI-Driven-Tennis-Coaching)
+**Video similarity search for tennis stroke feedback.** Converts player and professional clips into ViViT video transformer embeddings, then uses KNN to retrieve the closest professional stroke matches.
 
-`Whisper` `DistilGPT2` `DistilBERT` `Flask` `Assistive Tech`
+`ViViT` `PyTorch` `HuggingFace` `KNN` `Computer Vision`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 [Conflict Interest Detector](https://github.com/YujunGe07/Conflict-Interest)
-Automated system for detecting **academic conflicts of interest** in conference peer review. Analyzes co-authorship history, institutional affiliations, and financial ties using Google Scholar data.
-
-`Python` `NLP` `Google Scholar API` `Scikit-learn` `Pandas`
-
-</td>
-<td width="50%" valign="top">
-
 ### ✍️ [CollegeEssayAI](https://github.com/YujunGe07/CollegeEssayAI)
 AI-powered essay planning tool that analyzes uploaded **resumes + essay prompts** to surface relevant experiences. Uses Sentence-BERT cosine similarity + spaCy NER + an LLM brainstorm chat assistant.
 
 `Sentence-BERT` `spaCy` `Flask` `OpenRouter` `PyPDF2`
+
+</td>
+<td width="50%" valign="top">
+
+### 🫀 [ECG Signal Analysis](https://github.com/YujunGe07/ECG-Signal-Analysis)
+**ECG signal processing for post-operative cardiac rehabilitation.** Bandpass filtering, R-peak detection, HRV feature extraction, and Welch/Lomb-Scargle PSD visualization on wearable ECG recordings.
+
+`SciPy` `NumPy` `WFDB` `Matplotlib` `Biomedical ML`
 
 </td>
 </tr>
