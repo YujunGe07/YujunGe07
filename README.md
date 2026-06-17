@@ -62,6 +62,14 @@ I'm a **Machine Learning / AI Engineer** passionate about building systems at th
 <tr>
 <td width="50%" valign="top">
 
+### 🔬 [BERT Embedding Compression](https://github.com/YujunGe07/bert-embedding-compression)
+Research into **cross-distribution transfer of PCA compression** for BERT embeddings. Key finding: 128-dim PCA matches 768-dim BERT baseline (83.4% vs 83.0%) on AG News — with 83% dimensionality reduction.
+
+`BERT` `PCA` `Scikit-learn` `NLP Research` `Jupyter`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🧠 [AI/ML AAC System](https://github.com/YujunGe07/V1_AI_ML_AAC)
 **Augmentative & Alternative Communication** system for users with speech/motor impairments. Real-time speech recognition (Whisper) + context-aware text prediction (DistilGPT2) + TTS output.
 
@@ -72,14 +80,6 @@ I'm a **Machine Learning / AI Engineer** passionate about building systems at th
 <tr>
 <td width="50%" valign="top">
 
-### 🔬 [BERT Embedding Compression](https://github.com/YujunGe07/bert-embedding-compression)
-Research into **cross-distribution transfer of PCA compression** for BERT embeddings. Key finding: 128-dim PCA matches 768-dim BERT baseline (83.4% vs 83.0%) on AG News — with 83% dimensionality reduction.
-
-`BERT` `PCA` `Scikit-learn` `NLP Research` `Jupyter`
-
-</td>
-<td width="50%" valign="top">
-
 ### 🔍 [Conflict Interest Detector](https://github.com/YujunGe07/Conflict-Interest)
 Automated system for detecting **academic conflicts of interest** in conference peer review. Analyzes co-authorship history, institutional affiliations, and financial ties using Google Scholar data.
 
@@ -88,7 +88,7 @@ Automated system for detecting **academic conflicts of interest** in conference 
 </td>
 <td width="50%" valign="top">
 
-### ✍️ [Essay Brainstorm Helper](https://github.com/YujunGe07/CollegeEssayAI)
+### ✍️ [CollegeEssayAI](https://github.com/YujunGe07/CollegeEssayAI)
 AI-powered essay planning tool that analyzes uploaded **resumes + essay prompts** to surface relevant experiences. Uses Sentence-BERT cosine similarity + spaCy NER + an LLM brainstorm chat assistant.
 
 `Sentence-BERT` `spaCy` `Flask` `OpenRouter` `PyPDF2`
