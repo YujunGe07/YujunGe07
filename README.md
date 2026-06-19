@@ -83,7 +83,7 @@ I'm a **Machine Learning / AI Engineer** and **CS student at Stanford** passiona
 <tr>
 <td width="50%" valign="top">
 
-### ✍️ [CollegeEssayAI](https://github.com/YujunGe07/CollegeEssayAI)
+### ✍️ [EssayBrainstorm](https://github.com/YujunGe07/CollegeEssayAI)
 AI-powered essay planning tool that analyzes uploaded **resumes + essay prompts** to surface relevant experiences. Uses Sentence-BERT cosine similarity + spaCy NER + an LLM brainstorm chat assistant.
 
 `Sentence-BERT` `spaCy` `Flask` `OpenRouter` `PyPDF2`
