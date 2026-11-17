@@ -1,72 +1,113 @@
-# Yujun (Amy) Ge
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img alt="Yujun (Amy) Ge. Stanford CS. Embodied AI and ML systems. Learning from the world. Building systems that act in it." src="./assets/header-light.svg" width="100%">
+</picture>
 
-**Embodied AI, robot learning, and systems that make experiments repeatable.**
+<p align="center">
+  <a href="mailto:yujunge@stanford.edu"><img alt="Email Amy" src="https://img.shields.io/badge/EMAIL-Contact-252A30?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/yujun-ge/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-Connect-252A30?style=flat-square"></a>
+  <a href="#selected-work"><img alt="Explore selected work" src="https://img.shields.io/badge/PROJECTS-Explore-D24C4C?style=flat-square&logo=github&logoColor=white"></a>
+</p>
 
-Computer Science at **Stanford University** · Research Assistant, **ILIAD Lab / SAIL**
+**Stanford CS · Research Assistant at ILIAD Lab / SAIL**  
+Incoming **Amazon Software Development Engineer Intern**, Summer 2027
 
-Incoming **Software Development Engineer Intern at Amazon**, Summer 2027
+I work on the loop from **perception to action to evaluation**. That means learning from video, connecting agents to simulated worlds, and building the tools to understand where they succeed and fail. I also build assistive AI that helps people communicate.
 
-[Email](mailto:yujunge@stanford.edu) · [LinkedIn](https://www.linkedin.com/in/yujun-ge/) · [Explore my code](https://github.com/YujunGe07?tab=repositories)
+### Right now
 
-I build across the loop from **perception to action to evaluation**: extracting motion from video, connecting agents to simulators, and making their behavior measurable. My work spans multimodal learning, dexterous manipulation, world models, and agents that recover when a workflow breaks.
+**ILIAD Lab / SAIL** &nbsp; Multimodal learning and generalization across platforms, environments, and tasks.  
+**Common Origin** &nbsp; Founding AI engineer working on world models, simulation interfaces, and repeatable agent experiments.
 
-## What I am working on
+<p><sub>Previously: dexterous manipulation at <b>AtomBite</b> · browser agents at <b>Kairos UGC</b> · anomaly detection at <b>Haurlan</b></sub></p>
 
-| Area | Work |
+---
+
+## Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/YujunGe07/human-to-humanoid-motion">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/robotics-dark.svg">
+<img src="./assets/robotics-light.svg" alt="Human pose keypoints mapped to eight humanoid joints" width="100%">
+</picture>
+</a>
+<h3><a href="https://github.com/YujunGe07/human-to-humanoid-motion">Human to Humanoid Motion</a></h3>
+<p>Camera keypoints become constrained robot joint states. YOLO pose estimation, an eight-joint URDF, and ROS 2 / RViz visualization with a desktop preview.</p>
+<p><code>YOLO</code> <code>OpenCV</code> <code>ROS 2</code></p>
+<p><sub>Geometry and URDF contract checks run in CI.</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/YujunGe07/V1_AI_ML_AAC">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/aac-dark.svg">
+<img src="./assets/aac-light.svg" alt="AAC pipeline: listen, suggest, and speak" width="100%">
+</picture>
+</a>
+<h3><a href="https://github.com/YujunGe07/V1_AI_ML_AAC">Assistive Communication</a></h3>
+<p>An AAC prototype combining speech recognition, context-aware text suggestions, and speech output for people with speech or motor impairments.</p>
+<p><code>Whisper</code> <code>DistilGPT2</code> <code>Flask</code></p>
+<p><sub>Speech and text input, TTS, and interaction history.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/YujunGe07/common-origin-techical-challenge">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/wiring-dark.svg">
+<img src="./assets/wiring-light.svg" alt="Molecular wiring study: 17 neuron types and 272 directed pairs" width="100%">
+</picture>
+</a>
+<h3><a href="https://github.com/YujunGe07/common-origin-techical-challenge">Molecular Identity to Wiring</a></h3>
+<p>Can gene expression help predict neural connectivity? A public-data pipeline with explicit baselines and held-out tests across Drosophila neuron types.</p>
+<p><code>Neuroscience</code> <code>Ridge regression</code></p>
+<p><sub>17 neuron types. 272 directed pairs. Results and limitations included.</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/YujunGe07/bert-embedding-compression">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/bert-dark.svg">
+<img src="./assets/bert-light.svg" alt="Initial BERT compression experiment: 768 to 128 dimensions with 83.4 percent AG News accuracy" width="100%">
+</picture>
+</a>
+<h3><a href="https://github.com/YujunGe07/bert-embedding-compression">Smaller Embeddings</a></h3>
+<p>Studying how much of a BERT representation we can keep, and whether compression learned on one distribution transfers to another.</p>
+<p><code>Transformers</code> <code>PCA</code> <code>PyTorch</code></p>
+<p><sub>Initial run: 83.4% at 128 dimensions vs. 83.0% at 768. Strict-split and category-shift experiments included.</sub></p>
+</td>
+</tr>
+</table>
+
+**Also on the court:** [AI-Driven Tennis Coaching](https://github.com/YujunGe07/AI-Driven-Tennis-Coaching) uses ViViT embeddings and nearest-neighbor retrieval to compare tennis strokes with professional examples. Includes the research paper and analysis of camera angle, clip duration, and court appearance.
+
+<p><sub>More to explore: <a href="https://github.com/YujunGe07/ECG-Signal-Analysis">ECG signal analysis</a> · <a href="https://github.com/YujunGe07/haurlan-lite">Prediction-market matching engine</a></sub></p>
+
+## Research & recognition
+
+| Recognition | |
+| :--- | :--- |
+| **Regeneron STS** | Science Talent Search Scholar |
+| **MIT URTC 2025** | Independent author of an IEEE publication; 4th Place Best Paper Award |
+| **IEEE publication** | First author of research on AI-driven tennis coaching |
+
+<details>
+<summary><b>Tools I build with</b></summary>
+<br>
+
+| Area | Toolkit |
 | --- | --- |
-| **Robot learning** | Multimodal learning and generalization across physical platforms, environments, and tasks at Stanford's ILIAD Lab. |
-| **World models and simulation** | Shared environment, sensor, and rollout interfaces across FlyBody, MuJoCo, CARLA, and Unreal Engine as a founding AI engineer at Common Origin. |
-| **Reliable experiments** | Structured logs, validation, automated evaluation, and failure recovery for simulation and agent workflows. |
+| Learning & perception | Python, PyTorch, TensorFlow, Hugging Face, scikit-learn, multimodal models, computer vision |
+| Robotics & simulation | MuJoCo, CARLA, Unreal Engine, FlyBody, ManiSkill3, SAPIEN, LeRobot, ROS 2, URDF, FK/IK |
+| Agents & systems | Playwright, Docker, tool orchestration, automated evaluation, structured logging, TCP/JSON |
+| Applications & data | Java, JavaScript, TypeScript, SQL, Flask, PostgreSQL, Elasticsearch, Git, CI/CD |
 
-Previously: embodied AI engineering at **AtomBite**, browser agents at **Kairos UGC**, and anomaly detection at **Haurlan**. Those roles involved demonstration capture and manipulation pipelines, persistent browser simulations, and model evaluation with synthetic data.
+</details>
 
-## Selected builds
+---
 
-### [Human to Humanoid Motion](https://github.com/YujunGe07/human-to-humanoid-motion)
+<p align="center"><b>What happens when the world changes?</b><br><sub>A different camera. A different task. A different embodiment.<br>That is the kind of generalization I want to understand.</sub></p>
 
-**Camera keypoints into robot joint states.** A standalone vision and robotics prototype with YOLO pose estimation, confidence checks, joint-limit clamping, a custom humanoid URDF, and ROS 2 / RViz visualization. Includes a desktop preview that runs without ROS.
-
-`Python` · `YOLO` · `OpenCV` · `ROS 2` · `URDF`
-
-### [Molecular Identity to Visual Wiring](https://github.com/YujunGe07/common-origin-techical-challenge)
-
-**Can gene expression help predict neural connectivity?** An independent public-data challenge project joining Drosophila expression and connectome data across **17 neuron types and 272 directed pairs**. Ridge regression is evaluated against simple baselines on held-out pairs and held-out neuron types, with results and limitations committed alongside the pipeline.
-
-`Python` · `Computational neuroscience` · `Ridge regression` · `Generalization`
-
-### [BERT Embedding Compression](https://github.com/YujunGe07/bert-embedding-compression)
-
-**How much of an embedding do we need to keep?** Preliminary experiments on PCA compression and transfer across data distributions. The initial AG News run retained **83.4% classification accuracy at 128 dimensions**, compared with **83.0% at 768 dimensions**. Separate PCA-fit/classifier-train splits and category-shift tests examine how robust that result is.
-
-`PyTorch` · `Transformers` · `PCA` · `Representation learning`
-
-### [AI-Driven Tennis Coaching](https://github.com/YujunGe07/AI-Driven-Tennis-Coaching)
-
-**Find a professional stroke to compare with your own.** ViViT video embeddings and nearest-neighbor retrieval for tennis video comparison, accompanied by the research paper. The study examines how court appearance, clip duration, and camera angle affect matching.
-
-`ViViT` · `Video retrieval` · `Computer vision`
-
-### [URTC Scheduling Portal](https://github.com/YujunGe07/urtc-registration)
-
-**Software around the research community.** Separate presenter and organizer workflows, server-side scheduling checks, booking conflict handling, and calendar exports. An isolated presenter demo is available in the [portal](https://yujunge07.github.io/urtc-registration/).
-
-`TypeScript` · `React` · `Supabase` · `GitHub Actions`
-
-More projects: [ECG signal analysis](https://github.com/YujunGe07/ECG-Signal-Analysis) · [Assistive communication](https://github.com/YujunGe07/V1_AI_ML_AAC) · [Prediction-market matching engine](https://github.com/YujunGe07/haurlan-lite)
-
-## Research and recognition
-
-- **Regeneron Science Talent Search Scholar.**
-- **Independent author of an IEEE publication presented at MIT URTC 2025**, receiving the **4th Place Best Paper Award**.
-- **First author of an IEEE publication on AI-driven tennis coaching.**
-
-## Tools I work with
-
-| | |
-| --- | --- |
-| **Learning and perception** | Python, PyTorch, TensorFlow, Hugging Face, scikit-learn, multimodal models, computer vision |
-| **Robotics and simulation** | MuJoCo, CARLA, Unreal Engine, FlyBody, ManiSkill3, SAPIEN, LeRobot, ROS 2, URDF, FK/IK |
-| **Agents and engineering** | Playwright, Docker, tool orchestration, automated evaluation, structured logging, TCP/JSON |
-| **Applications and data** | Java, JavaScript, TypeScript, SQL, Flask, PostgreSQL, Elasticsearch, Git, CI/CD |
-
-I am especially interested in how learned systems behave when the camera, environment, task, or embodiment changes, and how to build the infrastructure to investigate that reliably.
+<p align="center"><a href="mailto:yujunge@stanford.edu">yujunge@stanford.edu</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/yujun-ge/">LinkedIn</a></p>
