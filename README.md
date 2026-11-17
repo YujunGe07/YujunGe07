@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Yujun (Amy) Ge. Stanford CS. Embodied AI and ML systems. Learning from the world. Building systems that act in it." src="./assets/header-light.svg" width="100%">
+  <img alt="Yujun (Amy) Ge. Stanford CS. AI and ML engineer. Curious across disciplines. Building AI for people." src="./assets/header-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -13,7 +13,11 @@
 **Stanford CS · Research Assistant at ILIAD Lab / SAIL**  
 Incoming **Amazon Software Development Engineer Intern**, Summer 2027
 
-I work on the loop from **perception to action to evaluation**. That means learning from video, connecting agents to simulated worlds, and building the tools to understand where they succeed and fail. I also build assistive AI that helps people communicate.
+I build **AI that helps people communicate, learns from complex data, and turns research into useful software**. My work spans language and speech, accessibility, computer vision, computational neuroscience, and intelligent agents. I like moving between disciplines and following a question from the first experiment to a working system.
+
+### What I bring
+
+**Research curiosity** across language representations, biological signals, and learning systems. **Product thinking** through assistive communication and user-facing software. **Engineering depth** in agents, evaluation, and simulation.
 
 ### Right now
 
@@ -29,18 +33,6 @@ I work on the loop from **perception to action to evaluation**. That means learn
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/YujunGe07/human-to-humanoid-motion">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/robotics-dark.svg">
-<img src="./assets/robotics-light.svg" alt="Human pose keypoints mapped to eight humanoid joints" width="100%">
-</picture>
-</a>
-<h3><a href="https://github.com/YujunGe07/human-to-humanoid-motion">Human to Humanoid Motion</a></h3>
-<p>Camera keypoints become constrained robot joint states. YOLO pose estimation, an eight-joint URDF, and ROS 2 / RViz visualization with a desktop preview.</p>
-<p><code>YOLO</code> <code>OpenCV</code> <code>ROS 2</code></p>
-<p><sub>Geometry and URDF contract checks run in CI.</sub></p>
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/YujunGe07/V1_AI_ML_AAC">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="./assets/aac-dark.svg">
@@ -51,6 +43,18 @@ I work on the loop from **perception to action to evaluation**. That means learn
 <p>An AAC prototype combining speech recognition, context-aware text suggestions, and speech output for people with speech or motor impairments.</p>
 <p><code>Whisper</code> <code>DistilGPT2</code> <code>Flask</code></p>
 <p><sub>Speech and text input, TTS, and interaction history.</sub></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/YujunGe07/bert-embedding-compression">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/bert-dark.svg">
+<img src="./assets/bert-light.svg" alt="Initial BERT compression experiment: 768 to 128 dimensions with 83.4 percent AG News accuracy" width="100%">
+</picture>
+</a>
+<h3><a href="https://github.com/YujunGe07/bert-embedding-compression">Smaller Embeddings</a></h3>
+<p>Studying how much of a BERT representation we can keep, and whether compression learned on one distribution transfers to another.</p>
+<p><code>Transformers</code> <code>PCA</code> <code>PyTorch</code></p>
+<p><sub>Initial run: 83.4% at 128 dimensions vs. 83.0% at 768. Strict-split and category-shift experiments included.</sub></p>
 </td>
 </tr>
 <tr>
@@ -67,16 +71,16 @@ I work on the loop from **perception to action to evaluation**. That means learn
 <p><sub>17 neuron types. 272 directed pairs. Results and limitations included.</sub></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/YujunGe07/bert-embedding-compression">
+<a href="https://github.com/YujunGe07/human-to-humanoid-motion">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="./assets/bert-dark.svg">
-<img src="./assets/bert-light.svg" alt="Initial BERT compression experiment: 768 to 128 dimensions with 83.4 percent AG News accuracy" width="100%">
+<source media="(prefers-color-scheme: dark)" srcset="./assets/robotics-dark.svg">
+<img src="./assets/robotics-light.svg" alt="Human pose keypoints mapped to eight humanoid joints" width="100%">
 </picture>
 </a>
-<h3><a href="https://github.com/YujunGe07/bert-embedding-compression">Smaller Embeddings</a></h3>
-<p>Studying how much of a BERT representation we can keep, and whether compression learned on one distribution transfers to another.</p>
-<p><code>Transformers</code> <code>PCA</code> <code>PyTorch</code></p>
-<p><sub>Initial run: 83.4% at 128 dimensions vs. 83.0% at 768. Strict-split and category-shift experiments included.</sub></p>
+<h3><a href="https://github.com/YujunGe07/human-to-humanoid-motion">Human to Humanoid Motion</a></h3>
+<p>Camera keypoints become constrained robot joint states. YOLO pose estimation, an eight-joint URDF, and ROS 2 / RViz visualization with a desktop preview.</p>
+<p><code>YOLO</code> <code>OpenCV</code> <code>ROS 2</code></p>
+<p><sub>Geometry and URDF contract checks run in CI.</sub></p>
 </td>
 </tr>
 </table>
@@ -108,6 +112,6 @@ I work on the loop from **perception to action to evaluation**. That means learn
 
 ---
 
-<p align="center"><b>What happens when the world changes?</b><br><sub>A different camera. A different task. A different embodiment.<br>That is the kind of generalization I want to understand.</sub></p>
+<p align="center"><b>Different questions. A shared instinct to build.</b><br><sub>Helping someone communicate. Understanding a signal. Testing an idea.<br>I am interested in what AI can make possible across all of them.</sub></p>
 
 <p align="center"><a href="mailto:yujunge@stanford.edu">yujunge@stanford.edu</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/yujun-ge/">LinkedIn</a></p>
