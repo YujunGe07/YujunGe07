@@ -1,127 +1,72 @@
-<div align="center">
+# Yujun (Amy) Ge
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yujun%20Ge&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=ML%20%2F%20AI%20Engineer%20%7C%20NLP%20%7C%20Computer%20Vision&descAlignY=55&descSize=16" />
+**Embodied AI, robot learning, and systems that make experiments repeatable.**
 
-<!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&width=600&lines=Computer+Vision+%7C+NLP+%7C+ML+Systems;Video+transformers+for+real-world+coaching;AI+for+healthcare%2C+accessibility+%26+beyond;CS+%40+Stanford+%F0%9F%8C%B2)](https://git.io/typing-svg)
+Computer Science at **Stanford University** · Research Assistant, **ILIAD Lab / SAIL**
 
-</div>
+Incoming **Software Development Engineer Intern at Amazon**, Summer 2027
 
----
+[Email](mailto:yujunge@stanford.edu) · [LinkedIn](https://www.linkedin.com/in/yujun-ge/) · [Explore my code](https://github.com/YujunGe07?tab=repositories)
 
-## About Me
+I build across the loop from **perception to action to evaluation**: extracting motion from video, connecting agents to simulators, and making their behavior measurable. My work spans multimodal learning, dexterous manipulation, world models, and agents that recover when a workflow breaks.
 
-I'm a **Machine Learning / AI Engineer** and **CS student at Stanford** passionate about building systems at the intersection of computer vision, NLP, and real-world impact — from sports analytics to healthcare.
+## What I am working on
 
-- 🎓 Studying **Computer Science @ Stanford University**
-- 🎾 Building **AI tennis coaching** tools using ViViT video transformers + KNN similarity search to match player strokes against professional examples
-- 🫀 Researching **ECG signal processing** for cardiac rehabilitation — bandpass filtering, R-peak detection, and HRV feature extraction from wearable sensors
-- 🧠 Built an **AI-powered AAC system** (Whisper + DistilGPT2) for users with speech/motor impairments
-- 🛠️ Interested in: **computer vision, video transformers, NLP, and ML for healthcare**
-- 📍 Los Angeles, CA
-- 📬 Reach me at: **[geyujunamy@gmail.com](mailto:geyujunamy@gmail.com)**
+| Area | Work |
+| --- | --- |
+| **Robot learning** | Multimodal learning and generalization across physical platforms, environments, and tasks at Stanford's ILIAD Lab. |
+| **World models and simulation** | Shared environment, sensor, and rollout interfaces across FlyBody, MuJoCo, CARLA, and Unreal Engine as a founding AI engineer at Common Origin. |
+| **Reliable experiments** | Structured logs, validation, automated evaluation, and failure recovery for simulation and agent workflows. |
 
----
+Previously: embodied AI engineering at **AtomBite**, browser agents at **Kairos UGC**, and anomaly detection at **Haurlan**. Those roles involved demonstration capture and manipulation pipelines, persistent browser simulations, and model evaluation with synthetic data.
 
-## Tech Stack
+## Selected builds
 
-<div align="center">
+### [Human to Humanoid Motion](https://github.com/YujunGe07/human-to-humanoid-motion)
 
-**Languages**
+**Camera keypoints into robot joint states.** A standalone vision and robotics prototype with YOLO pose estimation, confidence checks, joint-limit clamping, a custom humanoid URDF, and ROS 2 / RViz visualization. Includes a desktop preview that runs without ROS.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+`Python` · `YOLO` · `OpenCV` · `ROS 2` · `URDF`
 
-**ML / AI**
+### [Molecular Identity to Visual Wiring](https://github.com/YujunGe07/common-origin-techical-challenge)
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+**Can gene expression help predict neural connectivity?** An independent public-data challenge project joining Drosophila expression and connectome data across **17 neuron types and 272 directed pairs**. Ridge regression is evaluated against simple baselines on held-out pairs and held-out neuron types, with results and limitations committed alongside the pipeline.
 
-**Computer Vision & NLP**
+`Python` · `Computational neuroscience` · `Ridge regression` · `Generalization`
 
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge&logoColor=white)
-![OpenAI Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
+### [BERT Embedding Compression](https://github.com/YujunGe07/bert-embedding-compression)
 
-**Backend & Tools**
+**How much of an embedding do we need to keep?** Preliminary experiments on PCA compression and transfer across data distributions. The initial AG News run retained **83.4% classification accuracy at 128 dimensions**, compared with **83.0% at 768 dimensions**. Separate PCA-fit/classifier-train splits and category-shift tests examine how robust that result is.
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+`PyTorch` · `Transformers` · `PCA` · `Representation learning`
 
-</div>
+### [AI-Driven Tennis Coaching](https://github.com/YujunGe07/AI-Driven-Tennis-Coaching)
 
----
+**Find a professional stroke to compare with your own.** ViViT video embeddings and nearest-neighbor retrieval for tennis video comparison, accompanied by the research paper. The study examines how court appearance, clip duration, and camera angle affect matching.
 
-## Featured Projects
+`ViViT` · `Video retrieval` · `Computer vision`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [URTC Scheduling Portal](https://github.com/YujunGe07/urtc-registration)
 
-### 🧠 [AI/ML AAC System](https://github.com/YujunGe07/V1_AI_ML_AAC)
-**Augmentative & Alternative Communication** system for users with speech/motor impairments. Real-time speech recognition (Whisper) + context-aware text prediction (DistilGPT2) + TTS output.
+**Software around the research community.** Separate presenter and organizer workflows, server-side scheduling checks, booking conflict handling, and calendar exports. An isolated presenter demo is available in the [portal](https://yujunge07.github.io/urtc-registration/).
 
-`Whisper` `DistilGPT2` `DistilBERT` `Flask` `Python`
+`TypeScript` · `React` · `Supabase` · `GitHub Actions`
 
-</td>
-<td width="50%" valign="top">
+More projects: [ECG signal analysis](https://github.com/YujunGe07/ECG-Signal-Analysis) · [Assistive communication](https://github.com/YujunGe07/V1_AI_ML_AAC) · [Prediction-market matching engine](https://github.com/YujunGe07/haurlan-lite)
 
-### 🎾 [AI-Driven Tennis Coaching](https://github.com/YujunGe07/AI-Driven-Tennis-Coaching)
-**Video similarity search for tennis stroke feedback.** Converts player and professional clips into ViViT video transformer embeddings, then uses KNN to retrieve the closest professional stroke matches.
+## Research and recognition
 
-`ViViT` `PyTorch` `HuggingFace` `KNN` `Computer Vision`
+- **Regeneron Science Talent Search Scholar.**
+- **Independent author of an IEEE publication presented at MIT URTC 2025**, receiving the **4th Place Best Paper Award**.
+- **First author of an IEEE publication on AI-driven tennis coaching.**
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## Tools I work with
 
-### ✍️ [EssayBrainstorm](https://github.com/YujunGe07/CollegeEssayAI)
-AI-powered essay planning tool that analyzes uploaded **resumes + essay prompts** to surface relevant experiences. Uses Sentence-BERT cosine similarity + spaCy NER + an LLM brainstorm chat assistant.
+| | |
+| --- | --- |
+| **Learning and perception** | Python, PyTorch, TensorFlow, Hugging Face, scikit-learn, multimodal models, computer vision |
+| **Robotics and simulation** | MuJoCo, CARLA, Unreal Engine, FlyBody, ManiSkill3, SAPIEN, LeRobot, ROS 2, URDF, FK/IK |
+| **Agents and engineering** | Playwright, Docker, tool orchestration, automated evaluation, structured logging, TCP/JSON |
+| **Applications and data** | Java, JavaScript, TypeScript, SQL, Flask, PostgreSQL, Elasticsearch, Git, CI/CD |
 
-`Sentence-BERT` `spaCy` `Flask` `OpenRouter` `PyPDF2`
-
-</td>
-<td width="50%" valign="top">
-
-### 🫀 [ECG Signal Analysis](https://github.com/YujunGe07/ECG-Signal-Analysis)
-**ECG signal processing for post-operative cardiac rehabilitation.** Bandpass filtering, R-peak detection, HRV feature extraction, and Welch/Lomb-Scargle PSD visualization on wearable ECG recordings.
-
-`SciPy` `NumPy` `WFDB` `Matplotlib` `Biomedical ML`
-
-</td>
-</tr>
-</table>
-
----
-
-## Most Used Languages
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YujunGe07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
----
-
-## Let's Connect
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-geyujunamy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:geyujunamy@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yujunge)
-[![GitHub](https://img.shields.io/badge/GitHub-YujunGe07-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YujunGe07)
-
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
-</div>
+I am especially interested in how learned systems behave when the camera, environment, task, or embodiment changes, and how to build the infrastructure to investigate that reliably.
